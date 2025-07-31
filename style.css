@@ -437,6 +437,7 @@ footer span {
 @media (max-width: 768px) {
   html {
     font-size: 62.5%;
+    overflow: hidden;
   }
   #menu {
     display: inline-block;
@@ -455,7 +456,7 @@ footer span {
     background-color: #fff;
     width: 25rem;
     height: 100vh;
-    z-index: 999;
+    z-index: 9999;
   }
   .nav-item a {
     color: black;
